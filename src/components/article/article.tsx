@@ -12,7 +12,7 @@ const Article = ({topic, body}: IArticleProps) => {
     return (
         <ArticleStyle>
           <ArticleHeader header={topic}/>
-          <ArticleBody  content={body}/>
+          <ArticleBody  content={body} />
         </ArticleStyle>
     )
 };

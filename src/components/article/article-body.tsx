@@ -7,6 +7,6 @@ interface IAB {
 }
 
 const ArticleBody = ({ content }: IAB) => {
-  return <ArticleBodyStyle>{content}</ArticleBodyStyle>;
+  return <ArticleBodyStyle className="content">{content}</ArticleBodyStyle>;
 };
 export default ArticleBody;
